@@ -8184,8 +8184,8 @@
 
 		{
 			name:"Donald Trump",
-			team_count: 2, // team count is important to draw a node
-			type: "club",
+			team_count: 2, //  is important to draw a node
+			type: "candidate",
 			id: "Donald Trump",
 			
 		},
@@ -8194,7 +8194,7 @@
 		{
 			name:"Ted Cruz",
 			team_count: 2, // team count is important to draw a node
-			type: "club",
+			type: "candidate",
 			id: "Ted Cruz",
 			
 		},
@@ -8203,7 +8203,7 @@
 		{
 			name:"Hilary Clinton",
 			team_count: 2, // team count is important to draw a node
-			type: "club",
+			type: "candidate",
 			id: "Hilary Clinton",
 			
 		},
@@ -8212,7 +8212,7 @@
 		{
 			name:"Bernie Sanders",
 			team_count: 2, // team count is important to draw a node
-			type: "club",
+			type: "candidate",
 			id: "Bernie Sanders",
 			
 		},
@@ -8221,7 +8221,7 @@
 		{
 			name:"Marco Rubio",
 			team_count: 2, // team count is important to draw a node
-			type: "club",
+			type: "candidate",
 			id: "Marco Rubio",
 			
 		},
@@ -8230,7 +8230,7 @@
 		{
 			name:"Ben Carson",
 			team_count: 2, // team count is important to draw a node
-			type: "club",
+			type: "candidate",
 			id: "Ben Carson",
 			
 		},
@@ -8240,7 +8240,7 @@
 		{
 			name:"Jeb Bush",
 			team_count: 2, // team count is important to draw a node
-			type: "club",
+			type: "candidate",
 			id: "Jeb Bush",
 			
 		},
@@ -8249,7 +8249,7 @@
 		{
 			name:"Carly Fiorina",
 			team_count: 2, // team count is important to draw a node
-			type: "club",
+			type: "candidate",
 			id: "Carly Fiorina",
 			
 		},
@@ -8258,7 +8258,7 @@
 		{
 			name:"Chris Christie",
 			team_count: 2, // team count is important to draw a node
-			type: "club",
+			type: "candidate",
 			id: "Chris Christie",
 			
 		},
@@ -8266,7 +8266,7 @@
 		{
 			name:"Rand Paul",
 			team_count: 2, // team count is important to draw a node
-			type: "club",
+			type: "candidate",
 			id: "Rand Paul",
 			
 		},
@@ -8274,7 +8274,7 @@
 		{
 			name:"Lindsey Graham",
 			team_count: 2, // team count is important to draw a node
-			type: "club",
+			type: "candidate",
 			id: "Lindsey Graham",
 			
 		},
@@ -8282,7 +8282,7 @@
 		{
 			name:"Bobby Jindal",
 			team_count: 2, // team count is important to draw a node
-			type: "club",
+			type: "candidate",
 			id: "Bobby Jindal",
 			
 		},
@@ -8290,7 +8290,7 @@
 		{
 			name:"Rick Perry",
 			team_count: 2, // team count is important to draw a node
-			type: "club",
+			type: "candidate",
 			id: "Rick Perry",
 			
 		},
@@ -8299,54 +8299,54 @@
 		{
 			
 			short_name: "#Building_wall",  // Hashtag_name
-			team: "FL",
-			club: "Donald Trump",
+			state: "FL",
+			candidate: "Donald Trump",
 			country: "FL",
-			type: "player",
+			type: "hashtag",
 			id: "#Building_wall"
 			
 		}, 
 		{
 
 			country: "AL",
-			type: "team",
+			type: "state",
 			id: "AL",
 		},
 
 
 		{
 			country: "AK",
-			type: "team",
+			type: "state",
 			id: "AK",
 		},
 
 		{
 			country: "AZ",
-			type: "team",
+			type: "state",
 			id: "AZ",
 		},
 
 		{
 			country: "AR",
-			type: "team",
+			type: "state",
 			id: "AR",
 		},
 
 		{
 			country: "CA",
-			type: "team",
+			type: "state",
 			id: "CA",
 		},
 
 		{
 			country: "CO",
-			type: "team",
+			type: "state",
 			id: "CO",
 		},
 
 		{
 			country: "CT",
-			type: "team",
+			type: "state",
 			id: "CT",
 		},
 
@@ -8354,236 +8354,230 @@
 
 		{
 			country: "DE",
-			type: "team",
+			type: "state",
 			id: "DE",
 		},
 
 		{
 			country: "FL",
-			type: "team",
+			type: "state",
 			id: "FL",
 		},
 		{
 			country: "GA",
-			type: "team",
+			type: "state",
 			id: "GA",
 		},
 
 		{
 			country: "HI",
-			type: "team",
+			type: "state",
 			id: "HI",
 		},
 
 		{
 			country: "ID",
-			type: "team",
+			type: "state",
 			id: "ID",
 		},
 
 		{
 			country: "IL",
-			type: "team",
+			type: "state",
 			id: "IL",
 		},
 		{
 			country: "IN",
-			type: "team",
+			type: "state",
 			id: "IN",
 		},
 		
 
 		{
 			country: "IA",
-			type: "team",
+			type: "state",
 			id: "IA",
 		},
 
 		{
 			country: "KS",
-			type: "team",
+			type: "state",
 			id: "KS",
 		},
 		
 		{
 			country: "KY",
-			type: "team",
+			type: "state",
 			id: "KY",
 		},
 
 		{
 			country: "LA",
-			type: "team",
+			type: "state",
 			id: "LA",
 		},
 
 		{
 			country: "ME",
-			type: "team",
+			type: "state",
 			id: "ME",
 		},
 
 		{
 			country: "MD",
-			type: "team",
+			type: "state",
 			id: "MD",
 		},
 
 		{
 			country: "MA",
-			type: "team",
+			type: "state",
 			id: "MA",
 		},
 
 		{
 			country: "MI",
-			type: "team",
+			type: "state",
 			id: "MN",
 		},
 
 		{
 			country: "MS",
-			type: "team",
+			type: "state",
 			id: "MS",
 		},
 
 		{
 			country: "MO",
-			type: "team",
+			type: "state",
 			id: "MO",
 		},
 
 		{
 			country: "MT",
-			type: "team",
+			type: "state",
 			id: "Mt",
 		},
 
 		{
 			country: "NE",
-			type: "team",
+			type: "state",
 			id: "NE",
 		},
 
 		{
 			country: "NV",
-			type: "team",
+			type: "state",
 			id: "NV",
 		},
 
 		{
 			country: "NH",
-			type: "team",
+			type: "state",
 			id: "NH",
 		},
 
 		{
 			country: "NJ",
-			type: "team",
+			type: "state",
 			id: "NJ",
 		},
 
 		{
 			country: "NY",
-			type: "team",
+			type: "state",
 			id: "NY",
 		},
 
 		{
 			country: "NC",
-			type: "team",
+			type: "state",
 			id: "NC",
 		},
 
 		{
 			country: "ND",
-			type: "team",
+			type: "state",
 			id: "ND",
 		},
 
 		{
 			country: "OH",
-			type: "team",
+			type: "state",
 			id: "OH",
 		},
 		{
 			country: "OK",
-			type: "team",
+			type: "state",
 			id: "OK",
 		},
 		{
 			country: "OR",
-			type: "team",
+			type: "state",
 			id: "OR",
 		},
 		{
 			country: "PA",
-			type: "team",
+			type: "state",
 			id: "PA",
 		},
 		{
 			country: "RI",
-			type: "team",
+			type: "state",
 			id: "RI",
 		},
 		{
 			country: "SC",
-			type: "team",
+			type: "state",
 			id: "SC",
 		},
 		{
 			country: "SD",
-			type: "team",
+			type: "state",
 			id: "SD",
 		},
 		{
 			country: "TN",
-			type: "team",
+			type: "state",
 			id: "TN",
 		},
 		{
 			country: "UT",
-			type: "team",
+			type: "state",
 			id: "UT",
 		},
 		{
 			country: "VT",
-			type: "team",
+			type: "state",
 			id: "VT",
 		},
 		{
 			country: "VA",
-			type: "team",
+			type: "state",
 			id: "VA",
 		},
 		{
 			country: "WA",
-			type: "team",
+			type: "state",
 			id: "WA",
 		},
 		{
 			country: "WV",
-			type: "team",
+			type: "state",
 			id: "WV",
 		},
 		{
 			country: "WI",
-			type: "team",
+			type: "state",
 			id: "WI",
 		},
 		{
 			country: "WY",
-			type: "team",
+			type: "state",
 			id: "WY",
 		},
 
-
-
-
-
-
-
-
+		
 
 
 
@@ -8953,16 +8947,16 @@
 							return e.key
 						})),
 						i = D.filter(function(e) {
-							return r.has("club:" + e.club)
+							return r.has("candidate:" + e.candidate)
 						});
 					x.classed({
 						fade: function(e) {
-							return e.faded = !0, e.type == "club" ? e.faded = !r.has(e.key) : e.type == "player" ? e.faded = !r.has("club:" + e.club) : (e.type == "team" && (e.faded = !0, i.forEach(function(t) {
-								t.team == e.id && (e.faded = !1)
+							return e.faded = !0, e.type == "candidate" ? e.faded = !r.has(e.key) : e.type == "hashtag" ? e.faded = !r.has("candidate:" + e.candidate) : (e.type == "state" && (e.faded = !0, i.forEach(function(t) {
+								t.state == e.id && (e.faded = !1)
 							})), e.faded)
 						},
 						focus: function(e) {
-							return n.length > 1 && e.type == "player" ? !1 : !e.faded
+							return n.length > 1 && e.type == "hashtag" ? !1 : !e.faded
 						}
 					}), S.classed({
 						fade: function(e) {
@@ -8980,26 +8974,26 @@
 							return e.key
 						})),
 						i = D.filter(function(e) {
-							return r.has("team:" + e.team)
+							return r.has("state:" + e.state)
 						}),
 						s = e.set(i.map(function(e) {
-							return "club:" + e.club
+							return "candidate:" + e.candidate
 						})).values().map(M),
 						o = e.set(s.map(function(e) {
 							return e.id
 						})),
 						u = D.filter(function(e) {
-							return o.has(e.club)
+							return o.has(e.candidate)
 						}),
 						a = e.set();
 					u.forEach(function(e) {
-						a.add(e.team)
+						a.add(e.state)
 					}), x.classed({
 						fade: function(e) {
-							return e.faded = !0, e.type == "team" ? e.faded = !a.has(e.country) : e.type == "player" ? e.faded = !o.has(e.club) : e.type == "club" ? e.faded = !o.has(e.id) : e.faded
+							return e.faded = !0, e.type == "state" ? e.faded = !a.has(e.country) : e.type == "hashtag" ? e.faded = !o.has(e.candidate) : e.type == "candidate" ? e.faded = !o.has(e.id) : e.faded
 						},
 						focus: function(e) {
-							return e.type == "player" && !e.faded ? i.length < 5 : e.type == "club" && !e.faded ? e.team_count > 1 : !e.faded
+							return e.type == "hashtag" && !e.faded ? i.length < 5 : e.type == "candidate" && !e.faded ? e.team_count > 1 : !e.faded
 						}
 					}), S.classed({
 						fade: function(e) {
@@ -9017,25 +9011,25 @@
 							return e.key
 						})),
 						i = D.filter(function(e) {
-							return r.has("team:" + e.team)
+							return r.has("state:" + e.state)
 						}),
 						s = e.set(i.map(function(e) {
-							return "club:" + e.club
+							return "candidate:" + e.candidate
 						})).values().map(M),
 						o = e.set(s.map(function(e) {
 							return e.id
 						})),
 						u = e.set();
 					n = D.filter(function(e) {
-						return o.has(e.club)
+						return o.has(e.candidate)
 					}), n.forEach(function(e) {
-						u.add(e.team)
+						u.add(e.state)
 					}), x.classed({
 						fade: function(e) {
-							return e.faded = !0, e.type == "team" ? e.faded = !u.has(e.country) : e.type == "player" ? e.faded = !o.has(e.club) : e.type == "club" ? e.faded = !o.has(e.id) : e.faded
+							return e.faded = !0, e.type == "state" ? e.faded = !u.has(e.country) : e.type == "hashtag" ? e.faded = !o.has(e.candidate) : e.type == "candidate" ? e.faded = !o.has(e.id) : e.faded
 						},
 						focus: function(e) {
-							return e.type == "player" && !e.faded ? i.length < 5 : e.type == "club" && !e.faded ? e.team_count > 1 : !e.faded
+							return e.type == "hashtag" && !e.faded ? i.length < 5 : e.type == "candidate" && !e.faded ? e.team_count > 1 : !e.faded
 						}
 					}), S.classed({
 						fade: function(e) {
@@ -9058,13 +9052,13 @@
 					}), ut(!0);
 					return
 				}
-				t.type == "club" ? n() : t.type == "player" ? i() : r(), E.selectAll(".node.focus").each(function() {
+				t.type == "candidate" ? n() : t.type == "hashtag" ? i() : r(), E.selectAll(".node.focus").each(function() {
 					this.parentNode.appendChild(this)
-				}), st(E.selectAll(".node." + (t.type == "club" ? "player" : "club") + ".focus"), t.type == "club" ? 9 : 3)
+				}), st(E.selectAll(".node." + (t.type == "candidate" ? "hashtag" : "candidate") + ".focus"), t.type == "candidate" ? 9 : 3)
 			}
 
 			function V() {
-				X(j && j.type != "player" ? {
+				X(j && j.type != "hashtag" ? {
 					type: j.type,
 					filter: function(e) {
 						return e == j
@@ -9075,19 +9069,19 @@
 			function $(e) {
 				var t = e.source,
 					n = e.target;
-				return t.type == "club" ? J(t) : n.type == "club" ? J(n) : "#bbb"
+				return t.type == "candidate" ? J(t) : n.type == "candidate" ? J(n) : "#bbb"
 			}
 
 			function J(e) {
-				return e.type == "player" ? e.topPlayer ? "url(#mug-" + e.topPlayer.replace(".", "-") + ")" : "#aaa" : e.type == "club" ? L(e) : "#aaa"
+				return e.type == "hashtag" ? e.topPlayer ? "url(#mug-" + e.topPlayer.replace(".", "-") + ")" : "#aaa" : e.type == "candidate" ? L(e) : "#aaa"
 			}
 
 			function K(e) {
-				return e.type == "team" && !e.neighbors.values().length && P.length ? .3 : 1
+				return e.type == "state" && !e.neighbors.values().length && P.length ? .3 : 1
 			}
 
 			function Q(e) {
-				return "node " + e.type + (O.has(e.id) ? " top-club" : "") + (e.topPlayer ? " top-player" : "")
+				return "node " + e.type + (O.has(e.id) ? " top-candidate" : "") + (e.topPlayer ? " top-player" : "")
 			}
 
 			function G(e) {
@@ -9131,7 +9125,7 @@
 			function nt(e) {
 				var t = 0;
 				return o.nodes.forEach(function(e) {
-					e.radius = e.type == "team" ? 28 : e.type == "club" ? e.num_player_radius : e.topPlayer ? 20 / A : H.length < 5 ? 8 : 4, t += Math.PI * e.radius * e.radius
+					e.radius = e.type == "state" ? 28 : e.type == "candidate" ? e.num_player_radius : e.topPlayer ? 20 / A : H.length < 5 ? 8 : 4, t += Math.PI * e.radius * e.radius
 				}), o.nodes.length > 100 && (t = 2e5), Math.min(1, Math.sqrt(Math.PI * y * y * (1 - e) / t))
 			}
 
@@ -9185,7 +9179,7 @@
 							var p = e.x - r.point.x,
 								d = e.y - r.point.y,
 								v = i ? Math.abs(d) : Math.sqrt(p * p + d * d),
-								m = e.radius + r.point.radius + t * (e.type == "club" ? 6 : 1);
+								m = e.radius + r.point.radius + t * (e.type == "candidate" ? 6 : 1);
 							v < m && (v = (v - m) / v * n, i || (e.x -= p *= v), e.y -= d *= v, i || (r.point.x += p), r.point.y += d)
 						}
 						return s > u || c < o || l > f || h < a
@@ -9211,7 +9205,7 @@
 
 			function at(e) {
 				return function(t) {
-					t.y += (g - t.y) * e * (H.length == 2 && t.type == "club" ? -10 : 1), t.x += (m - t.x) * e
+					t.y += (g - t.y) * e * (H.length == 2 && t.type == "candidate" ? -10 : 1), t.x += (m - t.x) * e
 				}
 			}
 
@@ -9227,7 +9221,7 @@
 
 			function lt() {
 				o.nodes.forEach(function(e) {
-					e.type != "team" && p && p[e.key] ? (e.x = d * p[e.key][0], e.y = v * p[e.key][1]) : e.type != "team" && u[e.key] && (e.x = u[e.key].x, e.y = u[e.key].y)
+					e.type != "state" && p && p[e.key] ? (e.x = d * p[e.key][0], e.y = v * p[e.key][1]) : e.type != "state" && u[e.key] && (e.x = u[e.key].x, e.y = u[e.key].y)
 				})
 			}
 
@@ -9239,9 +9233,9 @@
 			C = C ? l.slice().concat(C) : l.slice(), o = c;
 			var M = k(o.nodes);
 			Y();
-			var D = o.nodes.filter(G("player")),
-				P = o.nodes.filter(G("club")),
-				H = o.nodes.filter(G("team")),
+			var D = o.nodes.filter(G("hashtag")),
+				P = o.nodes.filter(G("candidate")),
+				H = o.nodes.filter(G("state")),
 				B = y;
 			H.length < 6 && (y *= .8), H.length < 2 && (y = 0);
 			var j = null,
@@ -9257,7 +9251,7 @@
 			o.nodes.forEach(function(e) {
 				q = Math.max(q, e.radius *= b)
 			}), w.gravity(0).charge(H.length > 3 ? -30 : 200).linkDistance(H.length > 3 ? 10 : 35).linkStrength(function(e) {
-				return H.length < 4 ? 1 : e.source.type == "club" || e.target.type == "club" ? e.source.topPlayer || e.target.topPlayer ? .5 : .3 : 1
+				return H.length < 4 ? 1 : e.source.type == "candidate" || e.target.type == "candidate" ? e.source.topPlayer || e.target.topPlayer ? .5 : .3 : 1
 			}).nodes(o.nodes).links(o.links).on("tick", rt).start(), S = E.selectAll(".link"), x = E.selectAll(".node"), S = S.data(o.links, function(e) {
 				return e.source.key + "--" + e.target.key
 			}).style("stroke", $), S.exit().remove(), S.enter().insert("line").attr("class", "link").style("stroke", $).style("stroke-width", function() {
@@ -9270,14 +9264,14 @@
 			var R = x.exit();
 			R.transition(0).delay(500).remove(), R.selectAll("text").style("opacity", 0), R.selectAll("circle").transition(500).attr("r", 0);
 			var U = x.enter().append("g").attr("class", Q);
-			E.selectAll(".node.club").call(w.drag), U.append("circle").attr("fill", J).attr("r", 0).transition(500).attr("r", function(e) {
+			E.selectAll(".node.candidate").call(w.drag), U.append("circle").attr("fill", J).attr("r", 0).transition(500).attr("r", function(e) {
 				return e.radius
 			}), U.style("opacity", K), U.each(function(t) {
-				var s = (t.type == "team" ? n(t.country) : t.type == "player" ? i(t) : r(t.id)).split("\n");
+				var s = (t.type == "state" ? n(t.country) : t.type == "hashtag" ? i(t) : r(t.id)).split("\n");
 				e.select(this).append("text").attr("y", t.topPlayer ? 20 : 13 * s.length * -0.5).selectAll("tspan").data(s).enter().append("tspan").text(function(e) {
 					return e
 				}).attr("x", 0).attr("dy", 12)
-			}), E.selectAll(".node.top-player").each(ct), E.selectAll(".node.top-club").each(ct);
+			}), E.selectAll(".node.top-player").each(ct), E.selectAll(".node.top-candidate").each(ct);
 			var z = t.throttle(V, 600, {
 				leading: !1
 			});
@@ -9319,7 +9313,7 @@
 			y = Math.min(d, v) * .49,
 			b = 1,
 			w = e.layout.force().charge(-30).chargeDistance(0).gravity(0).linkDistance(10).linkStrength(function(e) {
-				return e.source.type == "club" || e.target.type == "club" ? e.source.topPlayer || e.target.topPlayer ? .5 : .3 : 1
+				return e.source.type == "candidate" || e.target.type == "candidate" ? e.source.topPlayer || e.target.topPlayer ? .5 : .3 : 1
 			}).size([d, v]),
 			E = p.append("svg").attr("width", d).attr("height", v);
 		C();
@@ -9365,9 +9359,9 @@
 			e.links.forEach(s);
 			var r = u(e.nodes);
 			e.links.forEach(function(e) {
-				e.target.type == "club" && (e.source = r["team:" + e.source.team])
+				e.target.type == "candidate" && (e.source = r["state:" + e.source.state])
 			}), e.nodes = e.nodes.filter(function(e) {
-				return e.type != "player"
+				return e.type != "hashtag"
 			}), e.links.forEach(o), e.links = e.links.filter(i)
 		}
 		return e
@@ -9476,14 +9470,14 @@
 	function M() {
 		function s() {
 			var e = r.val().trim().toLowerCase();
-			d.selectAll(".node.player").classed("highlighted", function(t) {
+			d.selectAll(".node.hashtag").classed("highlighted", function(t) {
 				return e && t.name.toLowerCase().indexOf(e) > -1
 			})
 		}
 
 		function a(e, t, n) {
 			var r;
-			n == "all" ? r = I() : e == "team" ? r = D(function(e) {
+			n == "all" ? r = I() : e == "state" ? r = D(function(e) {
 				return t == "stage" ? e[t] >= n : e[t] == n
 			}, !0) : r = B(function(e) {
 				return t != "rank" ? e[t] == n : n == "Top 10" ? e.rank > 0 && e.rank <= 10 : n == "Top 50" ? e.rank <= 50 : n == "Top 100" ? e.rank <= 100 : e.rank > 100 || e.rank === 0
@@ -9506,12 +9500,12 @@
 	function D(e, t) {
 		var n = F(i.nodes);
 		return function(r) {
-			if (r.type == "team") return t || e(r);
-			if (r.type == "player") return e(n["team:" + r.country]);
-			if (r.type == "club") {
+			if (r.type == "state") return t || e(r);
+			if (r.type == "hashtag") return e(n["state:" + r.country]);
+			if (r.type == "candidate") {
 				var s = !1;
 				return i.nodes.forEach(function(t) {
-					t.type == "player" && t.club == r.id && (s = s || e(n["team:" + t.country]))
+					t.type == "hashtag" && t.candidate == r.id && (s = s || e(n["state:" + t.country]))
 				}), s
 			}
 		}
@@ -9539,14 +9533,14 @@
 		});
 		var n = {};
 		return i.nodes.forEach(function(e) {
-				e.type == "player" && t[e.team] && (n[e.club] || (n[e.club] = r.set()), n[e.club].add(e.team))
+				e.type == "hashtag" && t[e.state] && (n[e.candidate] || (n[e.candidate] = r.set()), n[e.candidate].add(e.state))
 			}), r.keys(n).forEach(function(e) {
 				n[e] = n[e].values().length
 			}),
 			function(r) {
-				if (r.type == "team") return t[r.id];
-				if (r.type == "player") return t[r.team] && (n[r.club] > 1 || e.length == 1);
-				if (r.type == "club") return n[r.id] > 1 || e.length == 1
+				if (r.type == "state") return t[r.id];
+				if (r.type == "hashtag") return t[r.state] && (n[r.candidate] > 1 || e.length == 1);
+				if (r.type == "candidate") return n[r.id] > 1 || e.length == 1
 			}
 	}
 
@@ -9561,10 +9555,10 @@
 		var s = F(i.nodes),
 			o = {};
 		return n && i.nodes.forEach(function(t) {
-				t.type == "player" && e(s["club:" + t.club]) && (o[t.team] = !0)
+				t.type == "hashtag" && e(s["candidate:" + t.candidate]) && (o[t.state] = !0)
 			}),
 			function(t) {
-				return t.type == "club" ? e(t) : t.type == "player" ? e(s["club:" + t.club]) : n && t.type == "team" ? o[t.country] : !0
+				return t.type == "candidate" ? e(t) : t.type == "hashtag" ? e(s["candidate:" + t.candidate]) : n && t.type == "state" ? o[t.country] : !0
 			}
 	}
 
@@ -9592,7 +9586,7 @@
 			t = {},
 			n = [];
 		i.nodes.forEach(function(n) {
-			n.type == "player" && (e[n.club] || (e[n.club] = 0), e[n.club]++, t[n.club] || (t[n.club] = r.set()), t[n.club].add(n.team))
+			n.type == "hashtag" && (e[n.candidate] || (e[n.candidate] = 0), e[n.candidate]++, t[n.candidate] || (t[n.candidate] = r.set()), t[n.candidate].add(n.state))
 		}), r.keys(t).forEach(function(r) {
 			n.push({
 				name: r,

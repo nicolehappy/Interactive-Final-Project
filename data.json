@@ -1,0 +1,701 @@
+nodes: [
+
+		{
+			name:"Donald Trump",
+			team_count: 2, //  is important to draw a node
+			type: "candidate",
+			id: "Donald Trump",
+			
+		},
+
+
+		{
+			name:"Ted Cruz",
+			team_count: 2, // team count is important to draw a node
+			type: "candidate",
+			id: "Ted Cruz",
+			
+		},
+
+
+		{
+			name:"Hilary Clinton",
+			team_count: 2, // team count is important to draw a node
+			type: "candidate",
+			id: "Hilary Clinton",
+			
+		},
+
+
+		{
+			name:"Bernie Sanders",
+			team_count: 2, // team count is important to draw a node
+			type: "candidate",
+			id: "Bernie Sanders",
+			
+		},
+
+
+		{
+			name:"Marco Rubio",
+			team_count: 2, // team count is important to draw a node
+			type: "candidate",
+			id: "Marco Rubio",
+			
+		},
+
+
+		{
+			name:"Ben Carson",
+			team_count: 2, // team count is important to draw a node
+			type: "candidate",
+			id: "Ben Carson",
+			
+		},
+
+
+
+		{
+			name:"Jeb Bush",
+			team_count: 2, // team count is important to draw a node
+			type: "candidate",
+			id: "Jeb Bush",
+			
+		},
+
+
+		{
+			name:"Carly Fiorina",
+			team_count: 2, // team count is important to draw a node
+			type: "candidate",
+			id: "Carly Fiorina",
+			
+		},
+
+
+		{
+			name:"Chris Christie",
+			team_count: 2, // team count is important to draw a node
+			type: "candidate",
+			id: "Chris Christie",
+			
+		},
+
+		{
+			name:"Rand Paul",
+			team_count: 2, // team count is important to draw a node
+			type: "candidate",
+			id: "Rand Paul",
+			
+		},
+
+		{
+			name:"Lindsey Graham",
+			team_count: 2, // team count is important to draw a node
+			type: "candidate",
+			id: "Lindsey Graham",
+			
+		},
+
+		{
+			name:"Bobby Jindal",
+			team_count: 2, // team count is important to draw a node
+			type: "candidate",
+			id: "Bobby Jindal",
+			
+		},
+
+		{
+			name:"Rick Perry",
+			team_count: 2, // team count is important to draw a node
+			type: "candidate",
+			id: "Rick Perry",
+			
+		},
+
+
+		{
+			
+			short_name: "#Building_wall",  // Hashtag_name
+			state: "FL",
+			candidate: "Donald Trump",
+			country: "FL",
+			type: "hashtag",
+			id: "#Building_wall"
+			
+		}, 
+		{
+
+			country: "AL",
+			type: "state",
+			id: "AL",
+		},
+
+
+		{
+			country: "AK",
+			type: "state",
+			id: "AK",
+		},
+
+		{
+			country: "AZ",
+			type: "state",
+			id: "AZ",
+		},
+
+		{
+			country: "AR",
+			type: "state",
+			id: "AR",
+		},
+
+		{
+			country: "CA",
+			type: "state",
+			id: "CA",
+		},
+
+		{
+			country: "CO",
+			type: "state",
+			id: "CO",
+		},
+
+		{
+			country: "CT",
+			type: "state",
+			id: "CT",
+		},
+
+		
+
+		{
+			country: "DE",
+			type: "state",
+			id: "DE",
+		},
+
+		{
+			country: "FL",
+			type: "state",
+			id: "FL",
+		},
+		{
+			country: "GA",
+			type: "state",
+			id: "GA",
+		},
+
+		{
+			country: "HI",
+			type: "state",
+			id: "HI",
+		},
+
+		{
+			country: "ID",
+			type: "state",
+			id: "ID",
+		},
+
+		{
+			country: "IL",
+			type: "state",
+			id: "IL",
+		},
+		{
+			country: "IN",
+			type: "state",
+			id: "IN",
+		},
+		
+
+		{
+			country: "IA",
+			type: "state",
+			id: "IA",
+		},
+
+		{
+			country: "KS",
+			type: "state",
+			id: "KS",
+		},
+		
+		{
+			country: "KY",
+			type: "state",
+			id: "KY",
+		},
+
+		{
+			country: "LA",
+			type: "state",
+			id: "LA",
+		},
+
+		{
+			country: "ME",
+			type: "state",
+			id: "ME",
+		},
+
+		{
+			country: "MD",
+			type: "state",
+			id: "MD",
+		},
+
+		{
+			country: "MA",
+			type: "state",
+			id: "MA",
+		},
+
+		{
+			country: "MI",
+			type: "state",
+			id: "MN",
+		},
+
+		{
+			country: "MS",
+			type: "state",
+			id: "MS",
+		},
+
+		{
+			country: "MO",
+			type: "state",
+			id: "MO",
+		},
+
+		{
+			country: "MT",
+			type: "state",
+			id: "Mt",
+		},
+
+		{
+			country: "NE",
+			type: "state",
+			id: "NE",
+		},
+
+		{
+			country: "NV",
+			type: "state",
+			id: "NV",
+		},
+
+		{
+			country: "NH",
+			type: "state",
+			id: "NH",
+		},
+
+		{
+			country: "NJ",
+			type: "state",
+			id: "NJ",
+		},
+
+		{
+			country: "NY",
+			type: "state",
+			id: "NY",
+		},
+
+		{
+			country: "NC",
+			type: "state",
+			id: "NC",
+		},
+
+		{
+			country: "ND",
+			type: "state",
+			id: "ND",
+		},
+
+		{
+			country: "OH",
+			type: "state",
+			id: "OH",
+		},
+		{
+			country: "OK",
+			type: "state",
+			id: "OK",
+		},
+		{
+			country: "OR",
+			type: "state",
+			id: "OR",
+		},
+		{
+			country: "PA",
+			type: "state",
+			id: "PA",
+		},
+		{
+			country: "RI",
+			type: "state",
+			id: "RI",
+		},
+		{
+			country: "SC",
+			type: "state",
+			id: "SC",
+		},
+		{
+			country: "SD",
+			type: "state",
+			id: "SD",
+		},
+		{
+			country: "TN",
+			type: "state",
+			id: "TN",
+		},
+		{
+			country: "UT",
+			type: "state",
+			id: "UT",
+		},
+		{
+			country: "VT",
+			type: "state",
+			id: "VT",
+		},
+		{
+			country: "VA",
+			type: "state",
+			id: "VA",
+		},
+		{
+			country: "WA",
+			type: "state",
+			id: "WA",
+		},
+		{
+			country: "WV",
+			type: "state",
+			id: "WV",
+		},
+		{
+			country: "WI",
+			type: "state",
+			id: "WI",
+		},
+		{
+			country: "WY",
+			type: "state",
+			id: "WY",
+		},
+
+		
+
+
+
+
+
+
+
+		],
+		links: [{
+
+			source:22,
+			target: 13
+		}, 
+
+		 {
+
+			source: 13,
+			target: 0
+		}, 
+
+
+		{
+
+			source:0,
+			target: 25
+		},{
+
+			source:0,
+			target: 30
+		},{
+
+			source:0,
+			target: 29		
+		}, {
+
+			source:0,
+			target: 15		
+		
+		}, {
+
+			source:0,
+			target: 24		
+		}, {
+
+			source:0,
+			target: 50
+		},{
+
+			source:0,
+			target: 58
+		},{
+
+			source:0,
+			target: 40
+		},{
+
+			source:0,
+			target: 55
+		},{
+
+			source:0,
+			target: 54		
+		}, {
+
+			source:0,
+			target: 50		
+		
+		}, {
+
+			source:0,
+			target: 48		
+		},{
+
+			source:0,
+			target: 57		
+		},{
+
+			source:0,
+			target: 17
+		}, {
+
+			source:0,
+			target: 19
+		},{
+
+			source:0,
+			target: 34
+		},{
+
+			source:0,
+			target: 16
+		},{
+
+			source:0,
+			target: 43
+		},{
+
+			source:0,
+			target: 47		
+		}, {
+
+			source:0,
+			target: 37		
+		
+		}, {
+
+			source:0,
+			target: 21		
+		},{
+
+			source:0,
+			target: 42		
+		}, {
+
+			source:0,
+			target: 57
+		},{
+
+			source:0,
+			target: 15
+		},{
+
+			source:0,
+			target: 39
+		},{
+
+			source:0,
+			target:16
+		},{
+
+			source:0,
+			target: 49		
+		}, {
+
+			source:0,
+			target: 55	
+		
+		}, {
+
+			source:0,
+			target: 18		
+		},{
+
+			source:0,
+			target: 27		
+		},
+
+
+		{
+
+			source:1,
+			target: 29		
+		}, {
+
+			source:1,
+			target: 30		
+		}, {
+
+			source:1,
+			target: 88		
+		}, {
+
+			source:1,
+			target: 54		
+		},
+		{
+
+			source:2,
+			target: 39		
+		},{
+
+			source:2,
+			target: 18		
+		},  {
+
+			source:2,
+			target: 19		
+		}, {
+
+			source:3,
+			target: 22		
+		}, 
+		{
+
+			source:3,
+			target: 44		
+		}, {
+
+			source:3,
+			target: 52		
+		}, {
+
+			source:3,
+			target: 30		
+		},
+
+		{
+
+			source:4,
+			target: 29		
+		}, 
+
+		{
+
+			source:4,
+			target: 23		
+		},{
+
+			source:5,
+			target:58		
+		}, {
+
+			source:5,
+			target: 45		
+		}, 
+		{
+
+			source:5,
+			target: 43		
+		}, {
+			source: 5,
+			target: 52
+		}, {
+			source: 6,
+			target: 15
+		}, {
+			source: 6,
+			target: 49
+		}, {
+			source: 6,
+			target: 29
+		}, {
+			source: 6,
+			target: 54
+		}, {
+			source: 7,
+			target: 12
+		}, {
+			source: 7,
+			target: 56
+		}, {
+			source: 7,
+			target: 46
+		}, {
+			source: 7,
+			target: 35
+		}, {
+			source: 7,
+			target: 39
+		}, {
+			source: 8,
+			target: 38
+		}, {
+			source: 8,
+			target: 37
+		}, {
+			source: 8,
+			target: 23
+		}, {
+			source: 8,
+			target: 44
+		}, {
+			source: 8,
+			target: 34
+		}, {
+			source: 9,
+			target: 45
+		}, {
+			source: 9,
+			target: 25
+		}, {
+			source: 9,
+			target: 24
+		}, {
+			source: 9,
+			target: 14
+		}, {
+			source: 10,
+			target: 29
+		}, {
+			source: 10,
+			target: 53
+		}, {
+			source: 10,
+			target: 31
+		}, {
+			source: 10,
+			target: 57
+		}, {
+			source: 11,
+			target: 23
+		}, {
+			source: 11,
+			target: 29
+		}, {
+			source: 12,
+			target: 27
+		}, {
+			source: 12,
+			target: 43
+		
+		
+		}]

@@ -1,10 +1,10 @@
 ! function() {
 	function p(e, t) {
-		return e < t ? -1 : e > t ? 1 : e >= t ? 0 : NaN
+		//return e < t ? -1 : e > t ? 1 : e >= t ? 0 : NaN
 	}
 
 	function d(e) {
-		return e != null && !isNaN(e)
+	//	return e != null && !isNaN(e)
 	}
 
 	function v(e) {
@@ -38,6 +38,8 @@
 		return t
 	}
 
+
+	// important
 	function w(e, t) {
 		try {
 			for (var n in t) Object.defineProperty(e.prototype, n, {
@@ -49,9 +51,13 @@
 		}
 	}
 
+
+	// This is important to print the hashtag
+
 	function E() {}
 
 	function T(e) {
+		//console.log(this)
 		return S + e in this
 	}
 
@@ -2047,24 +2053,24 @@
 		}
 
 		function u(r, i, s, o, a, f, l, c, h, p, d, v, m, g) {
-			var b = l - r,
-				w = c - i,
-				E = b * b + w * w;
-			if (E > 4 * t && m--) {
-				var S = o + p,
-					x = a + d,
-					T = f + v,
-					N = Math.sqrt(S * S + x * x + T * T),
-					C = Math.asin(T /= N),
-					k = y(y(T) - 1) < Lt || y(s - h) < Lt ? (s + h) / 2 : Math.atan2(x, S),
-					L = e(k, C),
-					A = L[0],
-					O = L[1],
-					M = A - r,
-					_ = O - i,
-					D = w * M - b * _;
-				if (D * D / E > t || y((b * M + w * _) / E - .5) > .3 || o * p + a * d + f * v < n) u(r, i, s, o, a, f, A, O, k, S /= N, x /= N, T, m, g), g.point(A, O), u(A, O, k, S, x, T, l, c, h, p, d, v, m, g)
-			}
+			// var b = l - r,
+			// 	w = c - i,
+			// 	E = b * b + w * w;
+			// if (E > 4 * t && m--) {
+			// 	var S = o + p,
+			// 		x = a + d,
+			// 		T = f + v,
+			// 		N = Math.sqrt(S * S + x * x + T * T),
+			// 		C = Math.asin(T /= N),
+			// 		k = y(y(T) - 1) < Lt || y(s - h) < Lt ? (s + h) / 2 : Math.atan2(x, S),
+			// 		L = e(k, C),
+			// 		A = L[0],
+			// 		O = L[1],
+			// 		M = A - r,
+			// 		_ = O - i,
+			// 		D = w * M - b * _;
+			// 	if (D * D / E > t || y((b * M + w * _) / E - .5) > .3 || o * p + a * d + f * v < n) u(r, i, s, o, a, f, A, O, k, S /= N, x /= N, T, m, g), g.point(A, O), u(A, O, k, S, x, T, l, c, h, p, d, v, m, g)
+			// }
 		}
 		var t = .5,
 			n = Math.cos(30 * Ot),
@@ -2089,22 +2095,22 @@
 
 	function Ji(e, t) {
 		return {
-			point: t,
-			sphere: function() {
-				e.sphere()
-			},
-			lineStart: function() {
-				e.lineStart()
-			},
-			lineEnd: function() {
-				e.lineEnd()
-			},
-			polygonStart: function() {
-				e.polygonStart()
-			},
-			polygonEnd: function() {
-				e.polygonEnd()
-			}
+			// point: t,
+			// sphere: function() {
+			// 	e.sphere()
+			// },
+			// lineStart: function() {
+			// 	e.lineStart()
+			// },
+			// lineEnd: function() {
+			// 	e.lineEnd()
+			// },
+			// polygonStart: function() {
+			// 	e.polygonStart()
+			// },
+			// polygonEnd: function() {
+			// 	e.polygonEnd()
+			// }
 		}
 	}
 
@@ -4992,22 +4998,22 @@
 
 		function T(e) {
 			e({
-				type: "zoomstart"
+				//type: "zoomstart"
 			})
 		}
 
 		function N(e) {
-			x(), e({
-				type: "zoom",
-				scale: t.k,
-				translate: [t.x, t.y]
-			})
+			// x(), e({
+			// 	type: "zoom",
+			// 	scale: t.k,
+			// 	translate: [t.x, t.y]
+			// })
 		}
 
 		function C(e) {
-			e({
-				type: "zoomend"
-			})
+			// e({
+			// 	type: "zoomend"
+			// })
 		}
 
 		function k() {
@@ -5037,74 +5043,74 @@
 			}
 
 			function y() {
-				var n = e.event.target;
-				e.select(n).on(f, w).on(l, x), d.push(n);
-				var o = e.event.changedTouches;
-				for (var u = 0, a = o.length; u < a; ++u) i[o[u].identifier] = null;
-				var c = g(),
-					p = Date.now();
-				if (c.length === 1) {
-					if (p - h < 500) {
-						var v = c[0],
-							m = i[v.identifier];
-						E(t.k * 2), S(v, m), B(), N(r)
-					}
-					h = p
-				} else if (c.length > 1) {
-					var v = c[0],
-						y = c[1],
-						b = v[0] - y[0],
-						T = v[1] - y[1];
-					s = b * b + T * T
-				}
+				// var n = e.event.target;
+				// e.select(n).on(f, w).on(l, x), d.push(n);
+				// var o = e.event.changedTouches;
+				// for (var u = 0, a = o.length; u < a; ++u) i[o[u].identifier] = null;
+				// var c = g(),
+				// 	p = Date.now();
+				// if (c.length === 1) {
+				// 	if (p - h < 500) {
+				// 		var v = c[0],
+				// 			m = i[v.identifier];
+				// 		E(t.k * 2), S(v, m), B(), N(r)
+				// 	}
+				// 	h = p
+				// } else if (c.length > 1) {
+				// 	var v = c[0],
+				// 		y = c[1],
+				// 		b = v[0] - y[0],
+				// 		T = v[1] - y[1];
+				// 	s = b * b + T * T
+				// }
 			}
 
 			function w() {
-				var t = e.touches(n),
-					u, a, f, l;
-				for (var c = 0, p = t.length; c < p; ++c, l = null) {
-					f = t[c];
-					if (l = i[f.identifier]) {
-						if (a) break;
-						u = f, a = l
-					}
-				}
-				if (l) {
-					var d = (d = f[0] - u[0]) * d + (d = f[1] - u[1]) * d,
-						v = s && Math.sqrt(d / s);
-					u = [(u[0] + f[0]) / 2, (u[1] + f[1]) / 2], a = [(a[0] + l[0]) / 2, (a[1] + l[1]) / 2], E(v * o)
-				}
-				h = null, S(u, a), N(r)
+				// var t = e.touches(n),
+				// 	u, a, f, l;
+				// for (var c = 0, p = t.length; c < p; ++c, l = null) {
+				// 	f = t[c];
+				// 	if (l = i[f.identifier]) {
+				// 		if (a) break;
+				// 		u = f, a = l
+				// 	}
+				// }
+				// if (l) {
+				// 	var d = (d = f[0] - u[0]) * d + (d = f[1] - u[1]) * d,
+				// 		v = s && Math.sqrt(d / s);
+				// 	u = [(u[0] + f[0]) / 2, (u[1] + f[1]) / 2], a = [(a[0] + l[0]) / 2, (a[1] + l[1]) / 2], E(v * o)
+				// }
+				// h = null, S(u, a), N(r)
 			}
 
 			function x() {
-				if (e.event.touches.length) {
-					var t = e.event.changedTouches;
-					for (var n = 0, s = t.length; n < s; ++n) delete i[t[n].identifier];
-					for (var o in i) return void g()
-				}
-				e.selectAll(d).on(a, null), v.on(u, k).on(c, L), m(), C(r)
+				// if (e.event.touches.length) {
+				// 	var t = e.event.changedTouches;
+				// 	for (var n = 0, s = t.length; n < s; ++n) delete i[t[n].identifier];
+				// 	for (var o in i) return void g()
+				// }
+				// e.selectAll(d).on(a, null), v.on(u, k).on(c, L), m(), C(r)
 			}
-			var n = this,
-				r = p.of(n, arguments),
-				i = {},
-				s = 0,
-				o, a = ".zoom-" + e.event.changedTouches[0].identifier,
-				f = "touchmove" + a,
-				l = "touchend" + a,
-				d = [],
-				v = e.select(n).on(u, null).on(c, y),
-				m = wt();
-			ht.call(n), y(), T(r)
+			// var n = this,
+			// 	r = p.of(n, arguments),
+			// 	i = {},
+			// 	s = 0,
+			// 	o, a = ".zoom-" + e.event.changedTouches[0].identifier,
+			// 	f = "touchmove" + a,
+			// 	l = "touchend" + a,
+			// 	d = [],
+			// 	v = e.select(n).on(u, null).on(c, y),
+			// 	m = wt();
+			// ht.call(n), y(), T(r)
 		}
 
 		function A() {
-			var i = p.of(this, arguments);
-			l ? clearTimeout(l) : (ht.call(this), T(i)), l = setTimeout(function() {
-				l = null, C(i)
-			}, 50), B();
-			var s = r || e.mouse(this);
-			n || (n = b(s)), E(Math.pow(2, Wt() * .002) * t.k), S(s, n), N(i)
+			// var i = p.of(this, arguments);
+			// l ? clearTimeout(l) : (ht.call(this), T(i)), l = setTimeout(function() {
+			// 	l = null, C(i)
+			// }, 50), B();
+			// var s = r || e.mouse(this);
+			// n || (n = b(s)), E(Math.pow(2, Wt() * .002) * t.k), S(s, n), N(i)
 		}
 
 		function O() {
@@ -5112,25 +5118,31 @@
 		}
 
 		function M() {
-			var n = p.of(this, arguments),
-				r = e.mouse(this),
-				i = b(r),
-				s = Math.log(t.k) / Math.LN2;
-			T(n), E(Math.pow(2, e.event.shiftKey ? Math.ceil(s) - 1 : Math.floor(s) + 1)), S(r, i), N(n), C(n)
+			// var n = p.of(this, arguments),
+			// 	r = e.mouse(this),
+			// 	i = b(r),
+			// 	s = Math.log(t.k) / Math.LN2;
+			// T(n), E(Math.pow(2, e.event.shiftKey ? Math.ceil(s) - 1 : Math.floor(s) + 1)), S(r, i), N(n), C(n)
 		}
-		var t = {
-				x: 0,
-				y: 0,
-				k: 1
-			},
-			n, r, i = [960, 500],
-			o = zt,
-			u = "mousedown.zoom",
-			a = "mousemove.zoom",
-			f = "mouseup.zoom",
-			l, c = "touchstart.zoom",
-			h, p = F(y, "zoomstart", "zoom", "zoomend"),
-			d, v, m, g;
+
+
+
+		// var t = {
+		// 		x: 0,
+		// 		y: 0,
+		// 		k: 1
+		// 	},
+		// 	n, r, i = [960, 500],
+		// 	o = zt,
+		// 	u = "mousedown.zoom",
+		// 	a = "mousemove.zoom",
+		// 	f = "mouseup.zoom",
+		// 	l, c = "touchstart.zoom",
+		// 	h, p = F(y, "zoomstart", "zoom", "zoomend"),
+		// 	d, v, m, g;
+
+
+
 		return y.event = function(n) {
 			n.each(function() {
 				var n = p.of(this, arguments),
@@ -5403,6 +5415,10 @@
 		yellow: 16776960,
 		yellowgreen: 10145074
 	});
+
+
+
+
 	Nn.forEach(function(e, t) {
 		Nn.set(e, dn(t))
 	}), e.functor = Cn, e.xhr = Ln(kn), e.dsv = function(e, t) {
@@ -5414,23 +5430,24 @@
 			}, i
 		}
 
-		function s(e) {
-			return i.parse(e.responseText)
-		}
+		// function s(e) {
+		// 	return i.parse(e.responseText)
+		// }
 
-		function o(e) {
-			return function(t) {
-				return i.parse(t.responseText, e)
-			}
-		}
+		// function o(e) {
+		// 	return function(t) {
+		// 		return i.parse(t.responseText, e)
+		// 	}
+		// }
 
-		function u(t) {
-			return t.map(a).join(e)
-		}
+		// function u(t) {
+		// 	return t.map(a).join(e)
+		// }
 
-		function a(e) {
-			return n.test(e) ? '"' + e.replace(/\"/g, '""') + '"' : e
-		}
+		// function a(e) {
+		// 	return n.test(e) ? '"' + e.replace(/\"/g, '""') + '"' : e
+		// }
+
 		var n = new RegExp('["' + e + "\n]"),
 			r = e.charCodeAt(0);
 		return i.parse = function(e, t) {
@@ -5560,68 +5577,71 @@
 		}),
 		$n = e.time = {},
 		Jn = Date;
-	Kn.prototype = {
-		getDate: function() {
-			return this._.getUTCDate()
-		},
-		getDay: function() {
-			return this._.getUTCDay()
-		},
-		getFullYear: function() {
-			return this._.getUTCFullYear()
-		},
-		getHours: function() {
-			return this._.getUTCHours()
-		},
-		getMilliseconds: function() {
-			return this._.getUTCMilliseconds()
-		},
-		getMinutes: function() {
-			return this._.getUTCMinutes()
-		},
-		getMonth: function() {
-			return this._.getUTCMonth()
-		},
-		getSeconds: function() {
-			return this._.getUTCSeconds()
-		},
-		getTime: function() {
-			return this._.getTime()
-		},
-		getTimezoneOffset: function() {
-			return 0
-		},
-		valueOf: function() {
-			return this._.valueOf()
-		},
-		setDate: function() {
-			Qn.setUTCDate.apply(this._, arguments)
-		},
-		setDay: function() {
-			Qn.setUTCDay.apply(this._, arguments)
-		},
-		setFullYear: function() {
-			Qn.setUTCFullYear.apply(this._, arguments)
-		},
-		setHours: function() {
-			Qn.setUTCHours.apply(this._, arguments)
-		},
-		setMilliseconds: function() {
-			Qn.setUTCMilliseconds.apply(this._, arguments)
-		},
-		setMinutes: function() {
-			Qn.setUTCMinutes.apply(this._, arguments)
-		},
-		setMonth: function() {
-			Qn.setUTCMonth.apply(this._, arguments)
-		},
-		setSeconds: function() {
-			Qn.setUTCSeconds.apply(this._, arguments)
-		},
-		setTime: function() {
-			Qn.setTime.apply(this._, arguments)
-		}
-	};
+
+
+	// Kn.prototype = {
+	// 	getDate: function() {
+	// 		return this._.getUTCDate()
+	// 	},
+	// 	getDay: function() {
+	// 		return this._.getUTCDay()
+	// 	},
+	// 	getFullYear: function() {
+	// 		return this._.getUTCFullYear()
+	// 	},
+	// 	getHours: function() {
+	// 		return this._.getUTCHours()
+	// 	},
+	// 	getMilliseconds: function() {
+	// 		return this._.getUTCMilliseconds()
+	// 	},
+	// 	getMinutes: function() {
+	// 		return this._.getUTCMinutes()
+	// 	},
+	// 	getMonth: function() {
+	// 		return this._.getUTCMonth()
+	// 	},
+	// 	getSeconds: function() {
+	// 		return this._.getUTCSeconds()
+	// 	},
+	// 	getTime: function() {
+	// 		return this._.getTime()
+	// 	},
+	// 	getTimezoneOffset: function() {
+	// 		return 0
+	// 	},
+	// 	valueOf: function() {
+	// 		return this._.valueOf()
+	// 	},
+	// 	setDate: function() {
+	// 		Qn.setUTCDate.apply(this._, arguments)
+	// 	},
+	// 	setDay: function() {
+	// 		Qn.setUTCDay.apply(this._, arguments)
+	// 	},
+	// 	setFullYear: function() {
+	// 		Qn.setUTCFullYear.apply(this._, arguments)
+	// 	},
+	// 	setHours: function() {
+	// 		Qn.setUTCHours.apply(this._, arguments)
+	// 	},
+	// 	setMilliseconds: function() {
+	// 		Qn.setUTCMilliseconds.apply(this._, arguments)
+	// 	},
+	// 	setMinutes: function() {
+	// 		Qn.setUTCMinutes.apply(this._, arguments)
+	// 	},
+	// 	setMonth: function() {
+	// 		Qn.setUTCMonth.apply(this._, arguments)
+	// 	},
+	// 	setSeconds: function() {
+	// 		Qn.setUTCSeconds.apply(this._, arguments)
+	// 	},
+	// 	setTime: function() {
+	// 		Qn.setTime.apply(this._, arguments)
+	// 	}
+	// };
+
 	var Qn = Date.prototype;
 	$n.year = Gn(function(e) {
 		return e = $n.day(e), e.setMonth(0, 1), e
@@ -8186,6 +8206,7 @@
 			name:"Donald Trump",
 			team_count: 2, //  is important to draw a node
 			type: "candidate",
+			group:"Republicans",
 			id: "Donald Trump",
 			
 		},
@@ -8195,6 +8216,7 @@
 			name:"Ted Cruz",
 			team_count: 2, // team count is important to draw a node
 			type: "candidate",
+			group:"Republicans",
 			id: "Ted Cruz",
 			
 		},
@@ -8204,6 +8226,7 @@
 			name:"Hilary Clinton",
 			team_count: 2, // team count is important to draw a node
 			type: "candidate",
+			group:"Democratic",
 			id: "Hilary Clinton",
 			
 		},
@@ -8213,6 +8236,7 @@
 			name:"Bernie Sanders",
 			team_count: 2, // team count is important to draw a node
 			type: "candidate",
+			group:"Democratic",
 			id: "Bernie Sanders",
 			
 		},
@@ -8222,6 +8246,7 @@
 			name:"Marco Rubio",
 			team_count: 2, // team count is important to draw a node
 			type: "candidate",
+			group:"Republicans",
 			id: "Marco Rubio",
 			
 		},
@@ -8231,6 +8256,7 @@
 			name:"Ben Carson",
 			team_count: 2, // team count is important to draw a node
 			type: "candidate",
+			group:"Republicans",
 			id: "Ben Carson",
 			
 		},
@@ -8241,6 +8267,7 @@
 			name:"Jeb Bush",
 			team_count: 2, // team count is important to draw a node
 			type: "candidate",
+			group:"Republicans",
 			id: "Jeb Bush",
 			
 		},
@@ -8250,6 +8277,7 @@
 			name:"Carly Fiorina",
 			team_count: 2, // team count is important to draw a node
 			type: "candidate",
+			group:"Republicans",
 			id: "Carly Fiorina",
 			
 		},
@@ -8259,6 +8287,7 @@
 			name:"Chris Christie",
 			team_count: 2, // team count is important to draw a node
 			type: "candidate",
+			group:"Republicans",
 			id: "Chris Christie",
 			
 		},
@@ -8267,6 +8296,7 @@
 			name:"Rand Paul",
 			team_count: 2, // team count is important to draw a node
 			type: "candidate",
+			group:"Republicans",
 			id: "Rand Paul",
 			
 		},
@@ -8275,6 +8305,7 @@
 			name:"Lindsey Graham",
 			team_count: 2, // team count is important to draw a node
 			type: "candidate",
+			group:"Republicans",
 			id: "Lindsey Graham",
 			
 		},
@@ -8283,6 +8314,7 @@
 			name:"Bobby Jindal",
 			team_count: 2, // team count is important to draw a node
 			type: "candidate",
+			group:"Republicans",
 			id: "Bobby Jindal",
 			
 		},
@@ -8291,6 +8323,7 @@
 			name:"Rick Perry",
 			team_count: 2, // team count is important to draw a node
 			type: "candidate",
+			group:"Republicans",
 			id: "Rick Perry",
 			
 		},
@@ -8306,6 +8339,16 @@
 			id: "#Building_wall"
 			
 		}, 
+		{
+			
+			short_name: "#Building_wall",  // Hashtag_name
+			state: "CA",
+			candidate: "Rick Perry",
+			country: "CA",
+			type: "hashtag",
+			id: "#Building_wall"
+			
+		},
 		{
 
 			country: "AL",
@@ -8588,7 +8631,7 @@
 		],
 		links: [{
 
-			source:22,
+			source:23,
 			target: 13
 		}, 
 
@@ -8596,10 +8639,17 @@
 
 			source: 13,
 			target: 0
+		}, {
+
+			source:19,
+			target: 14
 		}, 
 
+		 {
 
-		{
+			source: 14,
+			target: 12
+		},{
 
 			source:0,
 			target: 25
@@ -8888,19 +8938,19 @@
 	}
 }), define("format/shortTeamName", [], function() {
 	return function(e) {
-		return e == "South Korea" ? "S. Korea" : e == "Netherlands" ? "Nether-\nlands" : e == "Switzerland" ? "Switzer-\nland" : e == "Ivory Coast" ? "Ivory\nCoast" : e == "Bosnia and Herzegovina" ? "Bosnia/\nHerz." : e == "Costa Rica" ? "Costa\nRica" : e.length > 10 ? codes[e] : e
+		return  e == "South Korea" ? "S. Korea" : e == "Netherlands" ? "Nether-\nlands" : e == "Switzerland" ? "Switzer-\nland" : e == "Ivory Coast" ? "Ivory\nCoast" : e == "Bosnia and Herzegovina" ? "Bosnia/\nHerz." : e == "Costa Rica" ? "Costa\nRica" : e.length > 10 ? codes[e] : e
 	}
 }), define("format/shortClubName", [], function() {
 	return function(e) {
 		var t = {
-			FC: !0,
-			SS: !0,
-			CF: !0,
-			SSC: !0,
-			AC: !0,
-			SK: !0,
-			CA: !0,
-			CD: !0
+			// FC: !0,
+			// SS: !0,
+			// CF: !0,
+			// SSC: !0,
+			// AC: !0,
+			// SK: !0,
+			// CA: !0,
+			// CD: !0
 		};
 		return e = e.split(" ").filter(function(e) {
 			return !t[e]
@@ -8944,18 +8994,25 @@
 				function n() {
 					var n = P.filter(t.filter),
 						r = e.set(n.map(function(e) {
+
+							//console.log(e.key);   // print candidate
 							return e.key
+
 						})),
 						i = D.filter(function(e) {
+							//console.log(e.candidate)		// print those who are linked to hashtag
 							return r.has("candidate:" + e.candidate)
 						});
 					x.classed({
 						fade: function(e) {
 							return e.faded = !0, e.type == "candidate" ? e.faded = !r.has(e.key) : e.type == "hashtag" ? e.faded = !r.has("candidate:" + e.candidate) : (e.type == "state" && (e.faded = !0, i.forEach(function(t) {
-								t.state == e.id && (e.faded = !1)
+							//	console.log(t.state)
+
+								t.state == e.id && (e.faded = !2)
 							})), e.faded)
 						},
 						focus: function(e) {
+							//console.log(n.length)
 							return n.length > 1 && e.type == "hashtag" ? !1 : !e.faded
 						}
 					}), S.classed({
@@ -8963,7 +9020,8 @@
 							return e.source.faded || e.target.faded
 						},
 						focus: function(e) {
-							return !e.source.faded && !e.target.faded
+							return e.source.faded && e.target.faded
+
 						}
 					})
 				}
@@ -8971,23 +9029,29 @@
 				function r() {
 					var n = H.filter(t.filter),
 						r = e.set(n.map(function(e) {
-							return e.key
+							return e.key 	// print the states
+
 						})),
 						i = D.filter(function(e) {
+							//console.log(e.state)      // return the states that has linked to hashtag
 							return r.has("state:" + e.state)
 						}),
 						s = e.set(i.map(function(e) {
 							return "candidate:" + e.candidate
 						})).values().map(M),
 						o = e.set(s.map(function(e) {
+							//console.log(e.id)
 							return e.id
 						})),
 						u = D.filter(function(e) {
+							//console.log(e.candidate);
+							//console.log(o.has(e.candidate)); // return True of false if this candidate has linked to states
 							return o.has(e.candidate)
 						}),
 						a = e.set();
 					u.forEach(function(e) {
 						a.add(e.state)
+						//console.log(a);  //put the states that has hashtag to a set
 					}), x.classed({
 						fade: function(e) {
 							return e.faded = !0, e.type == "state" ? e.faded = !a.has(e.country) : e.type == "hashtag" ? e.faded = !o.has(e.candidate) : e.type == "candidate" ? e.faded = !o.has(e.id) : e.faded
@@ -9054,11 +9118,12 @@
 				}
 				t.type == "candidate" ? n() : t.type == "hashtag" ? i() : r(), E.selectAll(".node.focus").each(function() {
 					this.parentNode.appendChild(this)
+					
 				}), st(E.selectAll(".node." + (t.type == "candidate" ? "hashtag" : "candidate") + ".focus"), t.type == "candidate" ? 9 : 3)
 			}
 
 			function V() {
-				X(j && j.type != "hashtag" ? {
+				X(j && j.type != "hashtag" ? {   // this means we can put the mouse over anything and we will get the connection except hashtag
 					type: j.type,
 					filter: function(e) {
 						return e == j
@@ -9067,21 +9132,29 @@
 			}
 
 			function $(e) {
+
 				var t = e.source,
 					n = e.target;
+					
 				return t.type == "candidate" ? J(t) : n.type == "candidate" ? J(n) : "#bbb"
 			}
 
+
+
 			function J(e) {
-				return e.type == "hashtag" ? e.topPlayer ? "url(#mug-" + e.topPlayer.replace(".", "-") + ")" : "#aaa" : e.type == "candidate" ? L(e) : "#aaa"
+				//console.log(e.type)
+				return e.group == "Republicans" ? "red" : "#ccc" && e.group == "Democratic" ? "#0080ff" : "#ccc"   // Change nodes colors
 			}
 
 			function K(e) {
-				return e.type == "state" && !e.neighbors.values().length && P.length ? .3 : 1
+
+				return e.type == "state" && !e.neighbors.values().length && P.length ? .3 : 1  // colors hue for the states that has no links
 			}
 
 			function Q(e) {
-				return "node " + e.type + (O.has(e.id) ? " top-candidate" : "") + (e.topPlayer ? " top-player" : "")
+				
+				return "node " + e.type + (O.has(e.id) ? "candidate" : "") + (e.candidate ? "candidate" : "") 
+				
 			}
 
 			function G(e) {
@@ -9093,6 +9166,8 @@
 			function Y() {
 				o.nodes.forEach(function(t) {
 					t.neighbors = e.set()
+					//console.log(t.neighbors)
+
 				}), o.links.forEach(function(e) {
 					var t = o.nodes[e.source],
 						n = o.nodes[e.target];
@@ -9100,8 +9175,12 @@
 				})
 			}
 
+			// This function for the size of the nodes
 			function Z(e, t) {
-				e.order = t, e.rank_radius = 3 + Math.pow((e.rank - 1200) / 840, 2) * 30, e.centrality_radius = 5 + Math.pow((e.centrality - .0255) / .67, 1) * 28, e.num_player_radius = Math.sqrt(e.neighbors.values().length) * 7 * A;
+				//console.log(e);
+				//console.log(t);
+				// This depends on number of linkes
+				e.order = t, e.rank_radius = 3 + Math.pow((e.rank - 1200) / 840, 2) * 30, e.centrality_radius = 5 + Math.pow((e.centrality - .0255) / .67, 1) * 28, e.candidate_radius = Math.sqrt(e.neighbors.values().length) * 7 * A;
 				if (H.length == 2) e.fixed = !0;
 				else {
 					var n = Math.random();
@@ -9111,13 +9190,15 @@
 
 			function et(e) {
 				var t = H.filter(function(t) {
+						//console.log(t)
 						return t.country == e.country
 					})[0],
 					n = Math.random() * Math.PI * 2,
 					r = 20 + Math.random() * 30;
 				e.x = t.x + Math.cos(n) * r, e.y = t.y + Math.sin(n) * r, C.indexOf(e.short_name) > -1 && s[e.short_name] && (e.topPlayer = s[e.short_name])
-			}
 
+			}
+				// This function responsible for locations of nodes
 			function tt(e, t) {
 				e.order = t, e.fixed = !0, e.phi = t / H.length * Math.PI * 2, e.x = m + Math.cos(e.phi) * (y - 30), e.y = g + Math.sin(e.phi) * (y - 30)
 			}
@@ -9125,7 +9206,8 @@
 			function nt(e) {
 				var t = 0;
 				return o.nodes.forEach(function(e) {
-					e.radius = e.type == "state" ? 28 : e.type == "candidate" ? e.num_player_radius : e.topPlayer ? 20 / A : H.length < 5 ? 8 : 4, t += Math.PI * e.radius * e.radius
+
+					e.radius = e.type == "state" ? 15 : e.type == "candidate" ? e.candidate_radius : e.topPlayer ? 20 / A : H.length < 5 ? 8 : 4, t += Math.PI * e.radius * e.radius
 				}), o.nodes.length > 100 && (t = 2e5), Math.min(1, Math.sqrt(Math.PI * y * y * (1 - e) / t))
 			}
 
@@ -9164,7 +9246,7 @@
 					})
 				}), ut(!0)
 			}
-
+				// This function make sure the nodes are not overlap each other
 			function ot(t, n, r, i) {
 				r = r || o.nodes;
 				var s = e.geom.quadtree(r);
@@ -9186,11 +9268,12 @@
 					})
 				}
 			}
-
+				// location of the nodes
 			function ut(e) {
 				var t = e ? x.transition(200) : x,
 					n = e ? S.transition(200) : S;
 				n.attr("x1", function(e) {
+					//console.log(e.source.x )
 					return e.source.x
 				}).attr("y1", function(e) {
 					return e.source.y
@@ -9211,11 +9294,13 @@
 
 			function ft() {
 				o.nodes.forEach(function(e) {
+
 					u[e.key] = {
 						x: e.x,
 						y: e.y,
 						r: e.radius
 					}
+					//console.log(u[e.key])
 				})
 			}
 
@@ -9228,25 +9313,36 @@
 			function ct() {
 				this.parentNode.appendChild(this)
 			}
+
+
 			o && ft(), p && (T = !0);
 			var O = e.set(N || f);
 			C = C ? l.slice().concat(C) : l.slice(), o = c;
 			var M = k(o.nodes);
+
 			Y();
 			var D = o.nodes.filter(G("hashtag")),
 				P = o.nodes.filter(G("candidate")),
 				H = o.nodes.filter(G("state")),
 				B = y;
+
 			H.length < 6 && (y *= .8), H.length < 2 && (y = 0);
 			var j = null,
 				F = "id";
 			H.sort(function(e, t) {
+				//console.log(e)
 				return e[F] > t[F] ? 1 : e[F] < t[F] ? -1 : 0
+
 			}), H.forEach(tt), P.forEach(Z), D.forEach(et), y = B, lt(), b = nt(.8) * A;
+
+
 			var I = 40 * b;
+			// These for images
 			E.selectAll("defs pattern").attr("width", I).attr("height", I).attr("x", -I * .5).attr("y", -I * .5).append("image").attr("xlink:href", function(e) {
 				return NYTG_ASSETS + "mugs/" + e
+
 			}).attr("width", I).attr("height", I);
+
 			var q = 0;
 			o.nodes.forEach(function(e) {
 				q = Math.max(q, e.radius *= b)
@@ -9255,14 +9351,17 @@
 			}).nodes(o.nodes).links(o.links).on("tick", rt).start(), S = E.selectAll(".link"), x = E.selectAll(".node"), S = S.data(o.links, function(e) {
 				return e.source.key + "--" + e.target.key
 			}).style("stroke", $), S.exit().remove(), S.enter().insert("line").attr("class", "link").style("stroke", $).style("stroke-width", function() {
-				return .3
+				return .3	// size of the lines between nodes
 			}), x = x.data(o.nodes, function(e) {
+				//console.log(e)
 				return e.key
 			}).attr("class", Q), x.select("circle").transition(0).attr("fill", J).attr("r", function(e) {
 				return e.radius
 			}), x.select("text").transition(0).style("opacity", 1), x.transition(500).style("opacity", K), x.each(ct);
+
 			var R = x.exit();
 			R.transition(0).delay(500).remove(), R.selectAll("text").style("opacity", 0), R.selectAll("circle").transition(500).attr("r", 0);
+
 			var U = x.enter().append("g").attr("class", Q);
 			E.selectAll(".node.candidate").call(w.drag), U.append("circle").attr("fill", J).attr("r", 0).transition(500).attr("r", function(e) {
 				return e.radius
@@ -9271,21 +9370,28 @@
 				e.select(this).append("text").attr("y", t.topPlayer ? 20 : 13 * s.length * -0.5).selectAll("tspan").data(s).enter().append("tspan").text(function(e) {
 					return e
 				}).attr("x", 0).attr("dy", 12)
+
 			}), E.selectAll(".node.top-player").each(ct), E.selectAll(".node.top-candidate").each(ct);
+
 			var z = t.throttle(V, 600, {
 				leading: !1
 			});
+
 			x.on("mouseenter", function(e) {
+				
 				j = e, this.parent.appendChild(this), V()
 			});
+
 			var W = t.throttle(it, 1e3, {
 				leading: !1
 			});
+
 			x.on("mouseleave", function() {
 				j = null, z(), W()
 			}), h || ut(), a.filter = X
 		}
 
+		// Not important
 		function C() {
 			var t = e.values(s),
 				n = 40 * b;
@@ -9296,12 +9402,15 @@
 			}).attr("width", n).attr("height", n)
 		}
 
+		// making the key
 		function k(e) {
 			var t = {};
 			return e.forEach(function(e) {
 					e.key = e.type + ":" + e.id, t[e.key] = e
+					console.log(e.key);
 				}),
 				function(e) {
+					//console.log(t[e]);
 					return t[e]
 				}
 		}
@@ -9331,8 +9440,8 @@
 				c(e, t)
 			}
 		},
-		f = ["Real Madrid CF", "FC Bayern Muenchen", "Juventus FC", "Manchester United FC", "FC Barcelona", "Chelsea FC", "Arsenal FC", "FC Dynamo Moskow", "AC Milan"],
-		l = ["NEYMAR JR", "SILVA", "SCHWEINSTEIGER", "MESSI", "V. PERSIE", "ROONEY", "RONALDO", "MARTINEZ", "ALEXIS", "SUAREZ", "BALOTELLI", "POGBA", "BRADLEY", "EDUARDO", "KERZHAKOV"];
+		f = [""],
+		l = [""];
 	return a
 }), define("graph/filter", [], function() {
 	return function(e, t, n) {
@@ -9367,36 +9476,40 @@
 		return e
 	}
 }), define("admanager", ["jquery/nyt", "underscore/1.5"], function(e, t) {
+	
+
 	var n = function(t) {
-		this.o = e.extend(!0, {
-			page: undefined,
-			positions: "",
-			autoconfirm: 0,
-			impression: !0,
-			v: "3",
-			url: "http://www.nytimes.com/adx/bin/adxrun.html",
-			dataType: "jsonp"
-		}, t), this.o.autoconfirm = this.o.autoconfirm ? 1 : 0, this.dataLoaded = undefined, this.loadData(), this.o.impression && this.makeImpression()
+		// this.o = e.extend(!0, {
+		// 	page: undefined,
+		// 	positions: "",
+		// 	autoconfirm: 0,
+		// 	impression: !0,
+		// 	v: "3",
+		// 	url: "http://www.nytimes.com/adx/bin/adxrun.html",
+		// 	dataType: "jsonp"
+		// }, t), this.o.autoconfirm = this.o.autoconfirm ? 1 : 0, this.dataLoaded = undefined, this.loadData(), this.o.impression && this.makeImpression()
 	};
+	
 	return n.prototype = {
 		loadData: function() {
-			var t = decodeURIComponent(e.param({
-				page: this.o.page,
-				positions: this.o.positions,
-				autoconfirm: this.o.autoconfirm,
-				v: this.o.v,
-				attributes: "nyt5",
-				jsonp: this.o.dataType === "jsonp" ? "adloaded" : undefined
-			}));
-			this.dataLoaded = e.ajax({
-				url: this.o.url,
-				type: "GET",
-				data: t,
-				processData: !1,
-				dataType: this.o.dataType,
-				jsonpCallback: "adloaded",
-				error: function(e) {}
-			})
+
+			// var t = decodeURIComponent(e.param({
+			// 	page: this.o.page,
+			// 	positions: this.o.positions,
+			// 	autoconfirm: this.o.autoconfirm,
+			// 	v: this.o.v,
+			// 	attributes: "nyt5",
+			// 	jsonp: this.o.dataType === "jsonp" ? "adloaded" : undefined
+			// }));
+			// this.dataLoaded = e.ajax({
+			// 	url: this.o.url,
+			// 	type: "GET",
+			// 	data: t,
+			// 	processData: !1,
+			// 	dataType: this.o.dataType,
+			// 	jsonpCallback: "adloaded",
+			// 	error: function(e) {}
+			// })
 		},
 		makeImpression: function() {
 			var t = e("<div></div>").css({
@@ -9450,16 +9563,13 @@
 	}
 
 	function w(e) {
-		if (e == "CAF") return "Africa";
-		if (e == "AFC") return "Asia";
-		if (e == "CONMEBOL") return "South America";
-		if (e == "CONCACAF") return "North America";
-		if (e == "UEFA") return "Europe"
+		if (e == "Democratic") return "Democratic";
+		if (e == "Republicans") return "Republicans";
 	}
 
-	function S(e) {
-		return e == "England" ? "English Premier League" : e == "Spain" ? "Spanish La Liga" : e == "Germany" ? "German Bundesliga" : e == "Italy" ? "Italian Serie A" : e
-	}
+	// function S(e) {
+	// 	return e == "England" ? "English Premier League" : e == "Spain" ? "Spanish La Liga" : e == "Germany" ? "German Bundesliga" : e == "Italy" ? "Italian Serie A" : e
+	// }
 
 	function C() {
 		N.each(function(e, t) {
@@ -9545,6 +9655,7 @@
 	}
 
 	function B(e, n) {
+
 		t.isString(e) && (e = [e]);
 		if (t.isArray(e)) {
 			var r = e;
@@ -9600,6 +9711,17 @@
 		})
 	}
 
+
+
+
+
+
+
+
+
+
+
+
 	function R(t, n) {
 		var r = e("<div />");
 		return n.forEach(function(i, s) {
@@ -9620,7 +9742,7 @@
 		});
 		l.place("#g-sponsor", "Sponsor1")
 	} catch (c) {
-		console.warn(c)
+		//console.warn(c)
 	}
 	Modernizr.touch && window.screen.availWidth == 320 ? e("html").addClass("g-mobile-portrait") : document.body.clientWidth < 945 ? (e("html").addClass("g-tablet-portrait"), h()) : Modernizr.touch && document.body.clientWidth < 1100 && (e("html").addClass("g-tablet-landscape"), h()), n.on("nyt:page-breakpoint", function(t) {
 		U(t) != f && (f = U(t), C(), f < 945 ? (x = "tablet", e("html").addClass("g-tablet-portrait")) : (x = "scroll", e("html").removeClass("g-tablet-portrait")), P(), o.resize(), _(!0))
@@ -9629,53 +9751,15 @@
 		v = d.select("#g-caption"),
 		m = [];
 	q();
-	var g = r.scale.ordinal().domain(["UEFA", "CAF", "AFC", "CONMEBOL", "CONCACAF"]).range(["#AAD348", "#E69980", "#c09ec6", "#FDC130", "#88bbdb"]),
+	var g = r.scale.ordinal().domain(["Republicans", "Democratic"]).range(["#ff0000", "#6495ed"]),
 		b = R(g.domain().map(w), g.range());
 	m.push({
-		id: "intro",
-		title: "",
-		text: "The best national teams come together every four years, but the global tournament is mostly a remix of the professional leagues that are in season most of the time. Three out of every four World Cup players play in Europe, and the top clubs like Barcelona, Bayern Munich and Manchester United have players from one end of the globe to the other.</p>" + b + "",
-		caption: "Soccer clubs with players on at least two national teams",
+		id: "explore",
+		title: "Find a Candidate",
+        text: "Why not look around for yourself?</p>" + e(".g-filter-template").html() + b,
+		caption: "",
 		filter: I(),
 		clubColors: y
-	}), m.push({
-		id: "brazil-vs-argentina",
-		title: "Brazil vs. Argentina",
-		text: "Even archrivals Brazil and Argentina overlap. Neymar, Brazilâ€™s star forward, plays alongside Lionel Messi, the Argentine captain, on powerhouse Barcelona. In all, eight Brazilians and 12 Argentines play together on European club teams.",
-		caption: "Soccer club connections between the national teams of Argentina and Brazil",
-		clubColors: y,
-		zoom: 1.3,
-		fixed: !0,
-		players: ["NEYMAR JR", "MESSI", "MARCELO", "HENRIQUE", "AGUERO", "DEMICHELIS", "FERNANDINHO", "LAVEZZI", "ALVAREZ"],
-		highlightClubs: ["Real Madrid CF", "FC Bayern Muenchen", "Juventus FC", "Manchester City FC", "FC Barcelona", "SSC Napoli", "Arsenal FC", "Paris Saint-Germain FC", "FC Internazionale"],
-		filter: H(["Brazil", "Argentina"])
-	});
-	var E = r.scale.ordinal().domain(["England", "Spain", "Germany", "Italy", "Other Leagues"]).range(["#9ab7d6", "#e5afa4", "#c8e1a3", "#e5d8a3", "#ccc"]);
-	m.push({
-		id: "uefa",
-		title: "The European Connection",
-		text: "Three out of every four World Cup players play on a European professional team. Bayern Munich and Manchester United top the list, each with 14 players on World Cup teams. More than half of the European club players in the World Cup play in one of the four strongest primary leagues (in England, Spain, Germany and Italy). </p><p>" + R(E.domain().map(S), E.range()),
-		caption: "European clubs with players on at least one national team",
-		filter: j("UEFA", !1),
-		clubColors: function(e) {
-			var t = e.country;
-			return E.domain().indexOf(t) < 0 && (t = "Other Leagues"), E(t)
-		}
-	}), m.push({
-		id: "all-but-uefa",
-		title: "The Rest of the World",
-		text: "Meanwhile, leagues outside Europe account for only 24 percent of the World Cup players, and only a handful of those teams supply players for more than one World Cup team. M.L.S. teams account for only 3 percent of the World Cup players.<p>" + R(g.domain().map(w).slice(1), g.range().slice(1)),
-		caption: "Non-European clubs with players on at least one national team",
-		filter: j(["CONCACAF", "AFC", "CONMEBOL", "CAF"], !1),
-		clubColors: y,
-		highlightClubs: ["Toronto FC", "New York Red Bulls", "Tigres", "Houston Dynamo", "Cruz Azul FC", "CD Chivas USA", "Melbourne Victory FC", "Sanfrecce Hiroshima", "CA Monarcas Morelia", "Al Hilal"]
-	}), m.push({
-		id: "explore",
-		title: "Find a Team",
-		filter: I(),
-		clubColors: y,
-		text: "Why not look around for yourself?</p>" + e(".g-filter-template").html() + b,
-		caption: ""
 	});
 	var x = Modernizr.touch && window.window.screen.availWidth < 686 ? "mobile" : Modernizr.touch || document.body.clientWidth < 975 ? "tablet" : "scroll",
 		T = r.select("#g-slides"),

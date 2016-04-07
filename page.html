@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js page-interactive section-worldcup page-theme-standard page-interactive-default  limit-small layout-xlarge app-interactive"  itemscope xmlns:og="http://opengraphprotocol.org/schema/"> 
 <head>
-    <title>The Clubs That Connect The World Cup - The New York Times</title>
+    <title>2016 United States Election Analysis Visualization</title>
        
 
 <script>
@@ -30,51 +30,9 @@ var require = {
 <article id="story" class="story theme-interactive 
 theme-main ">
                 
-<header class="story-header interactive-header">
-        
-        
-    <div class="story-meta">
-        <div class="kicker-container">
-            <h2 class="kicker interactive-kicker">
-                <span class="kicker-label">
-                    <a href="http://www.nytimes.com/pages/sports/worldcup/index.html"> World Cup</a>
-                </span>
-            </h2>
-
-<div id="sharetools-interactive" aria-label="tools" role="group" class="sharetools theme-classic  sharetools-interactive  "
-data-shares="show-all|Share"
-data-url="http://www.nytimes.com/interactive/2014/06/20/sports/worldcup/how-world-cup-players-are-connected.html"
-data-title="The Clubs That Connect The World Cup"
-data-author="By GREGOR AISCH"
-data-media="http://static01.nyt.com/images/2014/06/20/sports/worldcup/how-world-cup-players-are-connected-1403293554125/how-world-cup-players-are-connected-1403293554125-jumbo.png"
-data-description="The global tournament is mostly a remix of the professional leagues that are in season most of the time. See which professional clubs have the most players on the most World Cup teams."
-	data-publish-date="June 20, 2014"
-
-<div class="ad sharetools-inline-article-ad hidden nocontent robots-nocontent">
-</div>
-</div>
-</div>
-
-<h1 class="story-heading interactive-headline" itemprop="headline">The Clubs That Connect The World Cup</h1>
-            
-<div class="story-meta-footer interactive-meta-footer">
-<div class="interactive-byline">
-<p class="byline-dateline"><span class="byline last-byline" itemprop="author creator" itemscope itemtype="http://schema.org/Person" >By <span class="byline-author" data-byline-name="GREGOR AISCH" itemprop="name">GREGOR AISCH</span></span>	<time class="dateline" datetime="2014-06-20" itemprop="datePublished" content="2014-06-20">JUNE 20, 2014</time>
-</p>
-</div>
-
-<p class="interactive-leadin summary">
-<span class="summary-text">The best national teams come together every four years, but the global tournament is mostly a remix of the professional leagues that are in season most of the time. See which professional clubs have the most players on the most World Cup teams.
-</span>
-</p>
-</div>
-</div>
-</header>
-
-
 <div id="how-world-cup-players-are-connected" class="interactive-graphic">
    
-<link rel="stylesheet" type="text/css" href="http://graphics8.nytimes.com/newsgraphics/2014/06/10/teams-and-clubs/189dc93b5b88ae6fa872e9cca14e8d521ff57607/build.css">
+<link rel="stylesheet" type="text/css" href="style.css">
     
 
 
@@ -82,31 +40,48 @@ data-description="The global tournament is mostly a remix of the professional le
     <div id="g-slides">
     </div>
     
-    <div id="g-graph">
-        
-        <div id="g-caption">All clubs in the four strongest primary leagues</div> 
+    <div id="g-graph">        
     </div>
 
     <div class="g-filter-template" style="display:none">
 
         <div class="filter-row by-team">
-            <h3>Filter World Cup teams by:</h3>
+            <h3>Filter The Election by:</h3>
             <div class="select">
-                <label>Region</label>
-                <select data-type="team" data-for="region">
+                <label>State</label>
+                <select data-type="state" data-for="country">
                     <option value="all">All</option>
-                    <option>Europe</option><option>North America</option><option>South America</option><option>Asia</option><option>Africa</option><option>Oceania</option>
+                    <option>AL</option><option>AK</option><option>AZ</option><option>AR</option><option>CA</option><option>CO</option><option>CT</option><option>DE</option><option>FL</option><option>GA</option><option>HI</option><option>ID</option><option>IL</option><option>IN</option><option>IA</option><option>KS</option><option>KY</option><option>LA</option><option>ME</option><option>MD</option><option>MA</option><option>MI</option><option>MS</option><option>MO</option><option>MT</option><option>NE</option><option>NV</option><option>NH</option><option>NJ</option><option>NY</option><option>NC</option><option>ND</option><option>OH</option><option>OK</option><option>OR</option><option>PA</option><option>RI</option><option>SC</option><option>SD</option><option>TN</option><option>UT</option><option>VT</option><option>VA</option><option>WA</option><option>WV</option><option>WI</option><option>WY</option>
                 </select>
             </div>
             <div class="select">
-                <label>Group</label>
+                <label>Parties</label>
                 <select data-type="team" data-for="group">
                     <option value="all">All</option>
-                    <option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option><option>G</option><option>H</option>
+                    <option>Democratic</option><option>Republicans</option>
                 </select>
             </div>
             <div class="select">
-                <label>Stage</label>
+                <label>Candidates</label>
+                <select data-type="candidate" data-for="name">
+                    <option value="all">All</option>
+                    <option value="Donald Trump">Donald Trump</option>
+                    <option value="Ted Cruz">Ted Cruz</option>
+                    <option value="3">Hilary Clinton</option>
+                    <option value="Bernie Sanders">Bernie Sanders</option>
+                    <option value="Marco Rubio">Marco Rubio</option>
+                    <option value="Ben Carson">Ben Carson</option>
+                    <option value="Jeb Bush">Jeb Bush</option>
+                    <option value="Carly Fiorina">Carly Fiorina</option>
+                    <option value="Chris Christie">Chris Christie</option>
+                    <option value="Rand Paul">Rand Paul</option>
+                    <option value="Lindsey Graham">Lindsey Graham</option>
+                    <option value="Bobby Jindal">Bobby Jindal</option>
+                    <option value="Rick Perry">Rick Perry</option>
+                </select>
+            </div>
+            <div class="select">
+                <label>Time Period</label>
                 <select data-type="team" data-for="stage">
                     <option value="all">All</option>
                     <option value="1">Round of 16</option>
@@ -114,34 +89,6 @@ data-description="The global tournament is mostly a remix of the professional le
                     <option value="3">Semifinals</option>
                 </select>
             </div>
-        </div>
-        <div class="filter-row by-club">
-            <h3>Filter clubs by:</h3>
-            <div class="select">
-                <label>Region</label>
-                <select data-type="club" data-for="confederation">
-                    <option value="all">All</option>
-                    <option value="UEFA">Europe</option>
-                    <option value="CONCACAF">North America</option>
-                    <option value="CONMEBOL">South America</option>
-                    <option value="AFC">Asia</option>
-                    <option value="CAF">Africa</option>
-                </select>
-            </div>
-            <div class="select">
-                <label>Rank</label>
-                <select data-type="club" data-for="rank">
-                    <option value="all">All</option>
-                    <option>Top 10</option>
-                    <option>Top 50</option>
-                    <option>Top 100</option>
-                    <option>Rank > 100</option>
-                </select>
-            </div>
-        </div>
-        <div class="filter-row by-club">
-            <h3>Find player by name:</h3>
-            <input class="player-search" type="text" placeholder="Enter player name..." />
         </div>
     </div>
 </div>

@@ -58,7 +58,7 @@
 
 	function T(e) {
 		//console.log(this)
-		return S + e in this
+		return S + e in this  
 	}
 
 	function N(e) {
@@ -8204,7 +8204,6 @@
 
 		{
 			name:"Donald Trump",
-			team_count: 2, //  is important to draw a node
 			type: "candidate",
 			group:"Republicans",
 			id: "Donald Trump",
@@ -8214,7 +8213,6 @@
 
 		{
 			name:"Ted Cruz",
-			team_count: 2, // team count is important to draw a node
 			type: "candidate",
 			group:"Republicans",
 			id: "Ted Cruz",
@@ -8224,7 +8222,6 @@
 
 		{
 			name:"Hilary Clinton",
-			team_count: 2, // team count is important to draw a node
 			type: "candidate",
 			group:"Democratic",
 			id: "Hilary Clinton",
@@ -8234,7 +8231,6 @@
 
 		{
 			name:"Bernie Sanders",
-			team_count: 2, // team count is important to draw a node
 			type: "candidate",
 			group:"Democratic",
 			id: "Bernie Sanders",
@@ -8244,7 +8240,6 @@
 
 		{
 			name:"Marco Rubio",
-			team_count: 2, // team count is important to draw a node
 			type: "candidate",
 			group:"Republicans",
 			id: "Marco Rubio",
@@ -8254,7 +8249,6 @@
 
 		{
 			name:"Ben Carson",
-			team_count: 2, // team count is important to draw a node
 			type: "candidate",
 			group:"Republicans",
 			id: "Ben Carson",
@@ -8265,7 +8259,6 @@
 
 		{
 			name:"Jeb Bush",
-			team_count: 2, // team count is important to draw a node
 			type: "candidate",
 			group:"Republicans",
 			id: "Jeb Bush",
@@ -8275,7 +8268,6 @@
 
 		{
 			name:"Carly Fiorina",
-			team_count: 2, // team count is important to draw a node
 			type: "candidate",
 			group:"Republicans",
 			id: "Carly Fiorina",
@@ -8285,7 +8277,6 @@
 
 		{
 			name:"Chris Christie",
-			team_count: 2, // team count is important to draw a node
 			type: "candidate",
 			group:"Republicans",
 			id: "Chris Christie",
@@ -8294,7 +8285,6 @@
 
 		{
 			name:"Rand Paul",
-			team_count: 2, // team count is important to draw a node
 			type: "candidate",
 			group:"Republicans",
 			id: "Rand Paul",
@@ -8303,7 +8293,6 @@
 
 		{
 			name:"Lindsey Graham",
-			team_count: 2, // team count is important to draw a node
 			type: "candidate",
 			group:"Republicans",
 			id: "Lindsey Graham",
@@ -8312,7 +8301,6 @@
 
 		{
 			name:"Bobby Jindal",
-			team_count: 2, // team count is important to draw a node
 			type: "candidate",
 			group:"Republicans",
 			id: "Bobby Jindal",
@@ -8321,7 +8309,6 @@
 
 		{
 			name:"Rick Perry",
-			team_count: 2, // team count is important to draw a node
 			type: "candidate",
 			group:"Republicans",
 			id: "Rick Perry",
@@ -8341,12 +8328,12 @@
 		}, 
 		{
 			
-			short_name: "#Building_wall",  // Hashtag_name
+			short_name: "#Guns_Control",  // Hashtag_name
 			state: "CA",
 			candidate: "Rick Perry",
 			country: "CA",
 			type: "hashtag",
-			id: "#Building_wall"
+			id: "#Guns_Control"
 			
 		},
 		{
@@ -9057,7 +9044,7 @@
 							return e.faded = !0, e.type == "state" ? e.faded = !a.has(e.country) : e.type == "hashtag" ? e.faded = !o.has(e.candidate) : e.type == "candidate" ? e.faded = !o.has(e.id) : e.faded
 						},
 						focus: function(e) {
-							return e.type == "hashtag" && !e.faded ? i.length < 5 : e.type == "candidate" && !e.faded ? e.team_count > 1 : !e.faded
+							return e.type == "hashtag" && !e.faded ? i.length < 5 : e.type == "candidate" && !e.faded
 						}
 					}), S.classed({
 						fade: function(e) {
@@ -9093,7 +9080,7 @@
 							return e.faded = !0, e.type == "state" ? e.faded = !u.has(e.country) : e.type == "hashtag" ? e.faded = !o.has(e.candidate) : e.type == "candidate" ? e.faded = !o.has(e.id) : e.faded
 						},
 						focus: function(e) {
-							return e.type == "hashtag" && !e.faded ? i.length < 5 : e.type == "candidate" && !e.faded ? e.team_count > 1 : !e.faded
+							return e.type == "hashtag" && !e.faded ? i.length < 5 : e.type == "candidate" && !e.faded
 						}
 					}), S.classed({
 						fade: function(e) {
@@ -9366,8 +9353,9 @@
 			E.selectAll(".node.candidate").call(w.drag), U.append("circle").attr("fill", J).attr("r", 0).transition(500).attr("r", function(e) {
 				return e.radius
 			}), U.style("opacity", K), U.each(function(t) {
-				var s = (t.type == "state" ? n(t.country) : t.type == "hashtag" ? i(t) : r(t.id)).split("\n");
+				var s = (t.type == "state" ? n(t.country) : r(t.id)).split("\n");
 				e.select(this).append("text").attr("y", t.topPlayer ? 20 : 13 * s.length * -0.5).selectAll("tspan").data(s).enter().append("tspan").text(function(e) {
+					console.log(e)
 					return e
 				}).attr("x", 0).attr("dy", 12)
 
@@ -9407,7 +9395,7 @@
 			var t = {};
 			return e.forEach(function(e) {
 					e.key = e.type + ":" + e.id, t[e.key] = e
-					console.log(e.key);
+					//console.log(e.key);
 				}),
 				function(e) {
 					//console.log(t[e]);
@@ -9576,12 +9564,12 @@
 			m[t].offset = this.offsetTop - 300
 		})
 	}
-
+		// Deal with hashtag nodes
 	function M() {
 		function s() {
 			var e = r.val().trim().toLowerCase();
 			d.selectAll(".node.hashtag").classed("highlighted", function(t) {
-				return e && t.name.toLowerCase().indexOf(e) > -1
+				return e && t.name.toLowerCase().indexOf(e) > 2
 			})
 		}
 
@@ -9688,7 +9676,7 @@
 
 	function I() {
 		return B(function(e) {
-			return e.team_count >= 2
+			return e
 		})
 	}
 

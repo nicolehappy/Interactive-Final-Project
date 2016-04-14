@@ -8341,43 +8341,52 @@
 			country: "AL",
 			type: "state",
 			id: "AL",
+			show: "Alabama"
 		},
+
 
 
 		{
 			country: "AK",
 			type: "state",
 			id: "AK",
+			show: "Alaska"
+
 		},
 
 		{
 			country: "AZ",
 			type: "state",
 			id: "AZ",
+			show: "Arizona"
 		},
 
 		{
 			country: "AR",
 			type: "state",
 			id: "AR",
+			show: "Arkansas"
 		},
 
 		{
 			country: "CA",
 			type: "state",
 			id: "CA",
+			show: "California"
 		},
 
 		{
 			country: "CO",
 			type: "state",
 			id: "CO",
+			show: "Colorado"
 		},
 
 		{
 			country: "CT",
 			type: "state",
 			id: "CT",
+			show: "Connecticut"
 		},
 
 		
@@ -8386,40 +8395,47 @@
 			country: "DE",
 			type: "state",
 			id: "DE",
+			show: "Delaware"
 		},
 
 		{
 			country: "FL",
 			type: "state",
 			id: "FL",
+			show: "Florida"
 		},
 		{
 			country: "GA",
 			type: "state",
 			id: "GA",
+			show: "Georgia"
 		},
 
 		{
 			country: "HI",
 			type: "state",
 			id: "HI",
+			show: "Hawaii"
 		},
 
 		{
 			country: "ID",
 			type: "state",
 			id: "ID",
+			show: "Idaho"
 		},
 
 		{
 			country: "IL",
 			type: "state",
 			id: "IL",
+			show: "Illinois"
 		},
 		{
 			country: "IN",
 			type: "state",
 			id: "IN",
+			show: "Indiana"
 		},
 		
 
@@ -8427,184 +8443,237 @@
 			country: "IA",
 			type: "state",
 			id: "IA",
+			show: "Iowa"
 		},
 
 		{
 			country: "KS",
 			type: "state",
 			id: "KS",
+			show: "Kansas"
 		},
 		
 		{
 			country: "KY",
 			type: "state",
 			id: "KY",
+			show: "Kentucky"
 		},
 
 		{
 			country: "LA",
 			type: "state",
 			id: "LA",
+			show: "Louisiana"
 		},
 
 		{
 			country: "ME",
 			type: "state",
 			id: "ME",
+			show: "Maine"
 		},
 
 		{
 			country: "MD",
 			type: "state",
 			id: "MD",
+			show: "Maryland"
 		},
 
 		{
 			country: "MA",
 			type: "state",
 			id: "MA",
+			show: "Massachusetts"
 		},
 
 		{
 			country: "MI",
 			type: "state",
+			id: "MI",
+			show: "Michigan"
+
+		},
+		{
+			country: "MN",
+			type: "state",
 			id: "MN",
+			show: "Minnesota"
+
 		},
 
 		{
 			country: "MS",
 			type: "state",
 			id: "MS",
+			show: "Mississipi"
 		},
 
 		{
 			country: "MO",
 			type: "state",
 			id: "MO",
+			show: "Missouri"
 		},
 
 		{
 			country: "MT",
 			type: "state",
-			id: "Mt",
+			id: "MT",
+			show: "Montana"
 		},
 
 		{
 			country: "NE",
 			type: "state",
 			id: "NE",
+			show: "Nebraska"
 		},
 
 		{
 			country: "NV",
 			type: "state",
 			id: "NV",
+			show: "Neveda"
 		},
 
 		{
 			country: "NH",
 			type: "state",
 			id: "NH",
+			show: "New Hampshire"
 		},
 
 		{
 			country: "NJ",
 			type: "state",
 			id: "NJ",
+			show: "New Jersey"
+		},
+		{
+			country: "NM",
+			type: "state",
+			id: "NM",
+			show: "New Mexico"
 		},
 
 		{
 			country: "NY",
 			type: "state",
 			id: "NY",
+			show: "New York"
 		},
 
 		{
 			country: "NC",
 			type: "state",
 			id: "NC",
+			show: "North Carolina"
 		},
 
 		{
 			country: "ND",
 			type: "state",
 			id: "ND",
+			show: "North Dakata"
 		},
 
 		{
 			country: "OH",
 			type: "state",
 			id: "OH",
+			show: "Ohio"
 		},
 		{
 			country: "OK",
 			type: "state",
 			id: "OK",
+			show: "Oklahoma"
 		},
 		{
 			country: "OR",
 			type: "state",
 			id: "OR",
+			show: "Oregon"
 		},
 		{
 			country: "PA",
 			type: "state",
 			id: "PA",
+			show: "Pennsylvania"
 		},
 		{
 			country: "RI",
 			type: "state",
 			id: "RI",
+			show: "Rhode Island"
 		},
 		{
 			country: "SC",
 			type: "state",
 			id: "SC",
+			show: "South Carolina"
 		},
 		{
 			country: "SD",
 			type: "state",
 			id: "SD",
+			show: "South Dakota"
 		},
 		{
 			country: "TN",
 			type: "state",
 			id: "TN",
+			show: "Tennessee"
 		},
 		{
 			country: "UT",
 			type: "state",
 			id: "UT",
+			show: "Utah"
+		},
+		{
+			country: "TX",
+			type: "state",
+			id: "TX",
+			show: "Texas"
 		},
 		{
 			country: "VT",
 			type: "state",
 			id: "VT",
+			show: "Vermont"
 		},
 		{
 			country: "VA",
 			type: "state",
 			id: "VA",
+			show: "Virginia"
 		},
 		{
 			country: "WA",
 			type: "state",
 			id: "WA",
+			show: "Washington"
 		},
 		{
 			country: "WV",
 			type: "state",
 			id: "WV",
+			show: "West Virginia"
 		},
 		{
 			country: "WI",
 			type: "state",
 			id: "WI",
+			show: "Wisconsin"
 		},
 		{
 			country: "WY",
 			type: "state",
 			id: "WY",
+			show: "Wyoming"
 		},
 
 		

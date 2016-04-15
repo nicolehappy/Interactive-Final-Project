@@ -8328,12 +8328,12 @@
 		}, 
 		{
 			
-			short_name: "#Guns_Control",  // Hashtag_name
+			short_name: "#Building_wall",  // Hashtag_name
 			state: "CA",
-			candidate: "Rick Perry",
+			candidate: "Donald Trump",
 			country: "CA",
 			type: "hashtag",
-			id: "#Guns_Control"
+			id: "#Building_wall"
 			
 		},
 		{
@@ -8698,12 +8698,12 @@
 		}, {
 
 			source:19,
-			target: 14
+			target: 13
 		}, 
 
 		 {
 
-			source: 14,
+			source: 13,
 			target: 12
 		},{
 
